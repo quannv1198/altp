@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<p id=money class="money"></p>
+			<p id="time" class="time center-block">.</p>
+			<p class="close"></p>
+		</div>
+		<div class="content">
+			<p id="question" class="question">Ai Là Triệu Phú</p>
+			<p id="content" class="content-question">Chào mừng bạn đến với game Ai là triệu phú.<br>Trả lời đúng 15 câu liên tiếp để trở thành triệu phú.</p>
+		</div>
+		<div class="answer">
+			<div class="col-xs-6">
+				<p id="answer" value="A" onclick="startGame()">Bắt đầu</p>
+			</div>
+			<div class="col-xs-6">
+				<p id="infor" value="B" onclick="infor()">Thông Tin</p>
+			</div>
+			<div class="col-xs-6">
+				<p value="C" onclick="checkAnswer(this)">.</p>
+			</div>
+			<div class="col-xs-6">
+				<p value="D" onclick="checkAnswer(this)">.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

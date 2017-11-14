@@ -1,0 +1,78 @@
+body{
+	background: #E3F2FD;
+}
+.container{
+	background-color: #bdbdbd;
+	border:10px solid;
+	margin-top: 20px;
+	background: url(background.jpg) 100% repeat-y;
+}
+.header{
+	display: block;
+	position: relative;
+}
+.money{
+	top: 1.5em;
+	font-size: 1.5em;
+	left: 15px;
+	text-align: center;
+	width: 25%;
+	color: yellow;
+	position: absolute;
+	border-bottom: 2px solid yellow;
+	border-radius: 0 0 1em 1em; 
+}
+.time{
+	text-align: center;
+	width: 5em;
+	background: #1976D2;
+	font-size: 2.2em;
+	border-right: 5px solid #fff;
+	border-left:5px solid #fff;
+	border-radius: 0 0 5em 5em;
+	color: yellow;
+}
+.content{
+	background-color: rgba(105,105,105,0.5);
+	margin:3em 15px;
+	height: 20em;
+	border:1px solid #2196F3;
+	border-radius: 5px;
+}
+.question{
+	margin:0;
+	text-align: center;
+	font-size: 2em;
+	background-color: #2196F3;
+	color: #fff;
+}
+.content-question{
+	padding: 0 15px;
+	margin: 0;
+	font-size: 1.5em;
+	color: #fff;
+}
+.answer{
+	display: block;
+}
+.answer div{
+
+}
+.answer div p{
+	cursor: pointer;
+	color: #fff;
+	border-radius:2em; 
+	background-color: #1E88E5;
+	font-size: 1.2em;
+	padding: 0.5em 0.5em 0.5em 1em;
+	border: 2px solid #fff;
+}
+.answer div p:hover{
+	border-color: rgb(0,255,0);
+}
+a{
+	color: red;
+}
+a:hover{
+	color:yellow;
+}
